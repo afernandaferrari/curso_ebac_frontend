@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contato</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form>	
+        <label for="nome" >Nome</label>
+        <input type="text" id="nome" placeholder="Nome">
+        <br/>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Email">
+        <br/>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" placeholder="Telefone">
+        <br/><br/>
+        <label for="mensagem">Mensagem</label><br/>
+        <textarea id=mensagem></textarea>
+
+        <div>
+            <p>Como prefere o nosso contato?</p>
+
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+        </div>
+        <div>
+            <p>Qual horário prefere ser atendido?</p>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </div><br/>
+        <label class="checkbox"><input type="checkbox"> Gostaria de receber novidades por e-mail</label>
+        <br/><br/>
+        <input type="submit" value="Enviar formulário">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
