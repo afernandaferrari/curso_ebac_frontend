@@ -20,7 +20,6 @@
         <br/><br/>
         <label for="mensagem">Mensagem</label><br/>
         <textarea id=mensagem></textarea>
-
         <div>
             <p>Como prefere o nosso contato?</p>
 
